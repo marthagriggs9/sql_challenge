@@ -86,6 +86,14 @@ CREATE TABLE dept_emp(
 SELECT *
 FROM dept_emp
 
+-- Add primary key to titles table
+ALTER TABLE titles
+ADD PRIMARY KEY (title_id);
 
+--Add unique constraint to titles table
+ALTER TABLE titles
+ADD UNIQUE (title);
 
-
+--Add foreigner key to emp_title_id column of employees table
+ALTER TABLE employees
+ADD FOREIGN KEY (emp_title_id) REFERENCES titles(title_id);
