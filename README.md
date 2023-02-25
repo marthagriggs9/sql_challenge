@@ -15,4 +15,4 @@ Constraints.
 
 ![Pewlett_Hackard_ERD](https://user-images.githubusercontent.com/115905663/221370266-cdb4dade-b02a-4d4e-a9a0-a2de0258eb47.png)
 
-[^1]: Note that I included a .png of the diagram, as the .pgerd file did not create a visual for easy viewing (both files are located in the [Entity_Relationship_Diagram](Entity_Relationship_Diagram) folder). 
+[^1]: Note that I included a .png of the diagram, as the .pgerd file did not create a visual for easy viewing (both files are located in the [Entity_Relationship_Diagram](/Entity_Relationship_Diagram) folder). 
