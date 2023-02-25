@@ -21,13 +21,14 @@ WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31'
 
 --3. Join departments, dept_manager and employees tables to display the manager of each department
 -- along with the department number, department name, employee number, last name and first name
-SELECT  departments.dept_no, 
-		departments.dept_name,
+SELECT  titles.title,
+		departments.dept_no, 
 		dept_manager.emp_no, 
 		employees.last_name, 
-		employees.first_name, 
-		titles.title_id, 
-		titles.title
+		employees.first_name,
+		departments.dept_name,
+		titles.title_id 
+		
 FROM dept_manager
 INNER JOIN departments ON
 dept_manager.dept_no = departments.dept_no
@@ -63,11 +64,11 @@ AND last_name LIKE 'B%';
 
 --6. Join departments, dept_emp and employees to list each employee in the sales department, including their employee number
 --last name and first name
-SELECT  departments.dept_name, 
-		departments.dept_no, 
+SELECT  departments.dept_name, 	 
 		dept_emp.emp_no, 
 		employees.last_name, 
-		employees.first_name 
+		employees.first_name,
+		departments.dept_no
 		
 FROM dept_emp
 INNER JOIN departments ON

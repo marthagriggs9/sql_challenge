@@ -94,6 +94,6 @@ ADD PRIMARY KEY (title_id);
 ALTER TABLE titles
 ADD UNIQUE (title);
 
---Add foreigner key to emp_title_id column of employees table
+--Add foreign key to emp_title_id column of employees table
 ALTER TABLE employees
 ADD FOREIGN KEY (emp_title_id) REFERENCES titles(title_id);
