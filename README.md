@@ -52,6 +52,7 @@ you'll perform data modeling, data engineering and data analysis, respectively.
 ![image](https://user-images.githubusercontent.com/115905663/221372627-4fdae39d-2067-4b0c-81b8-0dbb9eb157d4.png)
 
 5. List first name, last name and sex of each employee whose first name is Hercules and whose last name begins with the letter B. 
+
 ![image](https://user-images.githubusercontent.com/115905663/221372651-7b119f69-db66-4927-a1fb-65b60a0c5d31.png)
 
 6. List each employee in the Sales department, including their employee number, last name and first name. 
@@ -61,4 +62,5 @@ you'll perform data modeling, data engineering and data analysis, respectively.
 ![image](https://user-images.githubusercontent.com/115905663/221372748-a8057e19-290e-43d6-a186-a0806dfc5c10.png)
 
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name). 
+
 ![image](https://user-images.githubusercontent.com/115905663/221372784-dcd35fd9-3e8f-4f87-a3cb-7f710ee2b6f2.png)
